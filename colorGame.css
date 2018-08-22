@@ -1,0 +1,160 @@
+body {
+	background-color: #232323;
+	margin:0;
+	font-family: "Avenir";
+}
+
+.square{
+
+}
+.PRACTICE{
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.6s;
+}
+
+.level1{
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.6s;
+}
+.level2{
+	width: 23%;
+	background: purple;
+	padding-bottom: 23%;
+	float: left;
+	margin: 1%;
+	border-radius: 15%;
+	transition: background 0.6s;
+}
+
+.level3{
+	width: 18%;
+	background: purple;
+	padding-bottom: 18%;
+	float: left;
+	margin: 1%;
+	border-radius: 15%;
+	transition: background 0.6s;
+}
+
+.level4{
+	width: 14.66%;
+	background: purple;
+	padding-bottom: 14.66%;
+	float: left;
+	margin: 1%;
+	border-radius: 15%;
+	transition: background 0.6s;
+}
+
+.level5{
+	width: 12.285%;
+	background: purple;
+	padding-bottom: 12.285%;
+	float: left;
+	margin: 1%;
+	border-radius: 15%;
+	transition: background 0.6s;
+}
+
+.level6{
+	width: 10.5%;
+	background: purple;
+	padding-bottom: 10.5%;
+	float: left;
+	margin: 1%;
+	border-radius: 15%;
+	transition: background 0.6s;
+}
+
+.level7{
+	width: 9.11%;
+	background: purple;
+	padding-bottom: 9.11%;
+	float: left;
+	margin: 1%;
+	border-radius: 15%;
+	transition: background 0.6s;
+}
+
+.level8{
+	width: 8%;
+	background: purple;
+	padding-bottom: 8%;
+	float: left;
+	margin: 1%;
+	border-radius: 15%;
+	transition: background 0.6s;
+}
+
+#container{
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+h1 {
+	text-align: center;
+	line-height:1.1;
+	color: white;
+	background: steelblue;
+	margin:0;
+	font-weight:normal;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+}
+
+#message{
+	color: black;
+}
+.selected{
+	color: white;
+	background: steelblue;
+}
+
+#colorDisplay{
+	font-size:200%;
+}
+
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	font-family: "Avenir";
+	height:100%;
+	font-weight:700;
+	color:steelblue;
+	letter-spacing: 1px;
+	transition: all 0.3s;
+	outline: none;
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+}
+
+
+button:hover{
+	color:white;
+	background:steelblue;
+}
+
+
+
+
+
