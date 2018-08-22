@@ -18,6 +18,7 @@ var resetButton = document.querySelector("#reset");
 var modeButtons = document.querySelectorAll(".mode");
 var practiceMode = false;
 var highscore = 0;
+colorDisplay.textContent = "LEVEL 1";
 
 //Changes tags text content;
 //GLOBAL VARIABLES =================================================
@@ -213,7 +214,6 @@ function randomRGB(){
 
 
 function resetBoard(numberofSquares){
-	colorDisplay.textContent = "LEVEL 1";
 	highscoreDisplay.textContent = "highscore: " + highscore;
 	randomNumber = pickRandom();
 	colors = generateRandomColors(numberofSquares, randomNumber);
