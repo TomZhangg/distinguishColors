@@ -5,11 +5,11 @@
 	<link rel="stylesheet" type="text/css" href="colorGame.css">
 </head>
 <body>
-<h1>Find the Different<br> <span id=colorDisplay>RGB</span><br> Color Game</h1>
+<h1>Find the Different Color<br> <span id=colorDisplay>LEVEL 1</span><br> <span id="highscoreDisplay">Color Game</span></h1>
 <div id="stripe">
 	<button id="reset">Reset</button>
 	<span id="message">Correct | Score: 0 | Tries: 0</span>
-	<button class="mode">Easy</button>
+	<button class="mode">Practice</button>
 	<button id="hard" class="mode selected">Hard</button>
 </div>
 
@@ -124,8 +124,12 @@
 	<div class="square level1"></div>
 	<div class="square level1"></div>
 </div>
-
+<script type='text/javascript' src='tinycolor.js'></script>
+<script type='text/javascript'>
+var color = tinycolor("red");
+</script>
 <script type="text/javascript" src="colorGame.js"></script>
+
 
 </body>
 </html>
